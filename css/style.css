@@ -26,7 +26,7 @@ body {
    color: black;
    font-family: 'Helvetica', sans-serif;
    font-size: 100%;
-   text-align: left;
+   text-align: justify;
    }
 
 .moyen_centre_grand {
@@ -65,3 +65,7 @@ text-align: center;
 .petit {
    display: none;
    }
+
+.row {
+    margin: 0;
+    }

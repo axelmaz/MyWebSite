@@ -26,7 +26,7 @@ body {
    color: black;
    font-family: 'Cabin', sans-serif;
    font-size: 120%;
-   text-align: left;
+   text-align: justify;
    }
 
 .moyen_pas_centre2 {
@@ -79,11 +79,43 @@ right: -100px;
 opacity: 0.5;
 }
 
-/* @media (max-width: 1024px){
+.row-top-trait{
+   background-color: #7aa3c5; 
+   padding-top: 90px; 
+   border-top: 20px solid #4e6b9a; 
+}
 
-   .virage{
-      display: none;
+.row-no-trait{
+   background-color: #7aa3c5; 
+   padding-top: 90px; 
+}
+.row{
+   margin: 0;
+   width: 100%;
+}
 
-   }
-   
-} */
+.colonne{
+   padding: 0;
+}
+
+.col-right-trait{
+   border-right: 20px solid #4e6b9a;
+}
+.col-top-right-trait{
+   background-color: #e9eef8;
+   border-top: 20px solid #4e6b9a;
+   border-right: 20px solid #4e6b9a;
+   border-top-right-radius: 200px 200px;
+}
+
+.col-left-trait{
+   border-left: 20px solid #4e6b9a;
+}
+
+.col-top-trait{
+   border-top: 20px solid #4e6b9a;
+}
+
+.col-bottom-trait{
+   border-bottom: 20px solid #4e6b9a;
+}
