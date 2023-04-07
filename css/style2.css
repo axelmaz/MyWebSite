@@ -124,11 +124,27 @@ opacity: 0.5;
    min-height: 200px;
 }
 
+.col-bottom-right-trait{
+   border-bottom: 20px solid #4e6b9a;
+   border-right: 20px solid #4e6b9a;
+   border-bottom-right-radius: 200px;
+   padding-right: 10px;
+   min-height: 200px;
+}
+
 .col-top-right-trait{
    border-top: 20px solid #4e6b9a;
    border-right: 20px solid #4e6b9a;
    border-top-right-radius: 200px;
    padding-right: 10px;
+   min-height: 200px;
+}
+
+.col-top-left-trait{
+   border-top: 20px solid #4e6b9a;
+   border-left: 20px solid #4e6b9a;
+   border-top-left-radius: 200px;
+   padding-left: 10px;
    min-height: 200px;
 }
 
@@ -146,4 +162,14 @@ opacity: 0.5;
 }
 .min-height-200{
    min-height: 200px;
+}
+
+.horrizontal-center{
+   display: flex;
+   justify-content: center;
+}
+
+.inversed{
+   display: flex;
+   flex-direction: row-reverse;
 }
