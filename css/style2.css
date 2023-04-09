@@ -161,7 +161,7 @@ opacity: 0.5;
    min-height: 200px;
 }
 .min-height-200{
-   min-height: 200px;
+   min-height: 180px;
 }
 
 .horrizontal-center{
@@ -172,4 +172,10 @@ opacity: 0.5;
 .inversed{
    display: flex;
    flex-direction: row-reverse;
+}
+
+.vertical-centered{
+   display: flex;
+   align-items: center;
+   height: 100%;
 }
